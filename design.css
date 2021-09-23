@@ -1,0 +1,154 @@
+body{
+  background-color: #E4FBFF;
+
+}
+
+.card-body{
+  text-align: center;
+  background-image: url("bg.png");
+  padding: 100px;
+  margin-top: 10px;
+  color: white;
+}
+
+.card-header{
+  background-color: #04009A;
+  border-radius: 10px;
+}
+
+.nav-link{
+  color: #E4FBFF;
+  opacity: 60%;
+}
+
+.act{
+  color: #E4FBFF;
+  opacity: 100%;
+}
+
+.card{
+  background-color: #E4FBFF;
+  border: none;
+  margin: 6px;
+}
+
+.d-block{
+  margin: 20px auto;
+  margin-bottom: 15px;
+}
+
+.carousel-control-next{
+  background-color: #04009A;
+  height:40px;
+  width: 40px;
+  margin: auto;
+  margin-right: 250px;
+}
+
+
+.carousel-control-prev{
+  background-color: #04009A;
+  height:40px;
+  width: 40px;
+  margin: auto;
+  margin-left: 250px;
+}
+
+.card-title{
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+  margin-top: 100px;
+}
+
+.card-text{
+  margin-top: 24px;
+  font-size: 20px;
+}
+
+.carousel-item{
+  text-align: center;
+}
+
+.carousel-item h5{
+  width: 40%;
+  font-size: 14px;
+  margin: auto;
+  opacity: 50%;
+  color: #04009A;
+}
+
+.card{
+  text-align: center;
+}
+
+.carousel-item h3{
+  width: 40%;
+  color: #04009A;
+  font-family: 'Dancing Script', cursive;
+  margin: auto;
+  margin-top: 20px;
+  opacity: 60%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+hr{
+  opacity: 30%;
+  width: 5%;
+  border: dotted #04009A 6px;
+  border-bottom: none;
+  margin-bottom: 130px;
+  margin-top: 130px;
+}
+
+.sep{
+  position: absolute;
+  right: 15px;
+}
+
+.nav-link:hover{
+  color: white;
+  opacity: 100%;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #04009A;
+  font-size: 15px;
+  background: #E4FBFF;
+  padding: 15px 20px 15px 20px;
+  border: solid #155e8c 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.jumbotron{
+  background-color: #E4FBFF;
+  text-align: center;
+}
+
+#cartext{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+    color: #04009A;
+    opacity: 60%;
+}
+
+footer{
+  background-color: #04009A;
+  height: 250px;
+  text-align: center;
+}
+
+i{
+  color: #E4FBFF;
+  padding: 100px 20px;
+  padding-left: 10px;
+}
