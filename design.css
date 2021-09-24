@@ -1,89 +1,87 @@
-body{
+body {
   background-color: #E4FBFF;
-
 }
 
-.card-body{
+.card-body {
   text-align: center;
   background-image: url("bg.png");
   padding: 100px;
   margin-top: 10px;
+  margin: 6px;
   color: white;
 }
 
-.card-header{
-  background-color: #04009A;
-  border-radius: 10px;
-}
-
-.nav-link{
+.nav-link {
   color: #E4FBFF;
   opacity: 60%;
 }
 
-.act{
+.act {
   color: #E4FBFF;
   opacity: 100%;
 }
 
-.card{
+.card {
   background-color: #E4FBFF;
   border: none;
   margin: 6px;
 }
 
-.d-block{
+.d-block {
   margin: 20px auto;
   margin-bottom: 15px;
 }
 
-.carousel-control-next{
-  background-color: #04009A;
-  height:40px;
+.carousel-control-next {
+  background-color: #142A4F;
+  height: 40px;
   width: 40px;
   margin: auto;
   margin-right: 250px;
 }
 
-
-.carousel-control-prev{
-  background-color: #04009A;
-  height:40px;
+.carousel-control-prev {
+  background-color: #142A4F;
+  height: 40px;
   width: 40px;
   margin: auto;
   margin-left: 250px;
 }
 
-.card-title{
+.card-title {
   font-family: 'Dancing Script', cursive;
   font-size: 80px;
   margin-top: 100px;
 }
 
-.card-text{
+.navbar-brand{
+  font-family: 'Dancing Script', cursive;
+}
+
+.card-text {
   margin-top: 24px;
   font-size: 20px;
 }
 
-.carousel-item{
+.carousel-item {
   text-align: center;
 }
 
-.carousel-item h5{
+.carousel-item h5 {
   width: 40%;
   font-size: 14px;
   margin: auto;
   opacity: 50%;
-  color: #04009A;
+  color: #142A4F;
 }
 
-.card{
+.card {
   text-align: center;
 }
 
-.carousel-item h3{
+.carousel-item h3 {
   width: 40%;
-  color: #04009A;
+  color: #142A4F;
   font-family: 'Dancing Script', cursive;
   margin: auto;
   margin-top: 20px;
@@ -92,21 +90,21 @@ body{
   font-weight: bold;
 }
 
-hr{
+hr {
   opacity: 30%;
   width: 5%;
-  border: dotted #04009A 6px;
+  border: dotted #142A4F 6px;
   border-bottom: none;
   margin-bottom: 130px;
   margin-top: 130px;
 }
 
-.sep{
+.sep {
   position: absolute;
   right: 15px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: white;
   opacity: 100%;
 }
@@ -116,39 +114,106 @@ hr{
   -moz-border-radius: 8;
   border-radius: 8px;
   font-family: Arial;
-  color: #04009A;
+  color: #142A4F;
   font-size: 15px;
   background: #E4FBFF;
-  padding: 15px 20px 15px 20px;
+  padding: 8px 20px 8px 20px;
   border: solid #155e8c 1px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #3cb0fd;
+  background: #155e8c;
+  color: white;
   text-decoration: none;
 }
 
-.jumbotron{
+.jumbotron {
   background-color: #E4FBFF;
   text-align: center;
 }
 
-#cartext{
+#cartext {
   font-family: 'Dancing Script', cursive;
   text-align: center;
-    color: #04009A;
-    opacity: 60%;
+  color: #142A4F;
+  opacity: 60%;
 }
 
-footer{
-  background-color: #04009A;
+footer {
+  background-color: #142A4F;
   height: 250px;
+  text-align: center;
+  color: white;
+}
+
+i {
+  color: #E4FBFF;
+  padding: 15px;
+  padding-top: 100px;
+}
+
+.card-header {
+  background-color: #142A4F;
+  border-radius: 10px;
+  border: none;
+}
+
+.form{
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
-i{
+.login-text{
+  padding-bottom: 30px;
+}
+
+.form-control{
+  width: 20%;
+  margin: auto;
+}
+
+.form-check-label{
+  padding-bottom: 20px;
+}
+
+.dropdown-item{
+  text-decoration: none;
+  margin: auto;
+  text-align: center;
+}
+
+.bdown{
+  margin: 20px;
+}
+
+.dropdown-item:hover{
+  background-color: white;
+  width: 20%;
+}
+
+.navbar{
+  margin-top: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
+  padding: 20px;
+  background-color: #142A4F;
+}
+
+.navbar-brand{
+  font-size: 24px;
+  margin-left: 20px;
   color: #E4FBFF;
-  padding: 100px 20px;
-  padding-left: 10px;
+}
+
+.navbar-nav{
+  right: 30px;
+  position: absolute;
+  padding-left: 200px;
+}
+
+.nav-link{
+  margin-left: 20px;
 }
